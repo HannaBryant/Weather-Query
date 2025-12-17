@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to right, #6dd5fa, #ffffff);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1a73e8;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+#weatherResult {
+    background: #ffffff;
+    border: 2px solid #1a73e8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+input, button {
+    border-radius: 8px;
+}
+
+button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #155cb0;
+}
